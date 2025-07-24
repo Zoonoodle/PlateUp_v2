@@ -1,0 +1,1195 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+
+# PlateUp v2.0 - Ultimate Claude Code Development Guide
+
+**Project:** PlateUp - AI-Powered Nutrition Coach & Assistant  
+**Version:** 2.0 (Complete Rebuild)  
+**Development Tool:** Claude Code with XcodeBuildMCP Integration  
+**Target Platform:** iOS 17+ (SwiftUI 6)  
+**Backend:** Firebase (Consolidated)  
+**AI Engine:** Google Gemini Flash + Gemini 2.5 Pro  
+**Build System:** XcodeBuildMCP for Simulator Control & Testing  
+
+---
+
+## 🎯 **Project Vision & Mission**
+
+PlateUp v2.0 is a revolutionary AI-powered nutrition coaching application that goes beyond simple calorie tracking. The app serves as a **personalized nutrition analyst and coach** that:
+
+- **Analyzes** user progress, meal timing, and food choices to identify patterns affecting energy, sleep, and performance
+- **Coaches** users with specific, goal-driven recommendations based on their unique data
+- **Guides** users through a clear, intentional journey toward their health goals
+- **Adapts** continuously based on user feedback and progress metrics
+
+### **Core Differentiator**
+Unlike generic nutrition apps, PlateUp provides **personalized nutritional intelligence** - acting as a data-driven nutrition coach that understands each user's specific goals, patterns, and responses to different foods and meal timing.
+
+---
+
+## 🏗️ **Architecture & Technology Stack**
+
+### **Frontend: SwiftUI 6 Benefits**
+```swift
+// Leverage SwiftUI 6 new features:
+- @Observable macro for simplified state management
+- @Previewable for better preview support
+- Enhanced animation system
+- Improved performance and memory management
+- Better accessibility integration
+- Native scroll view improvements
+```
+
+### **Backend: Firebase (Consolidated)**
+```javascript
+// Complete Firebase ecosystem:
+✅ Firebase Auth (Apple, Google, Email/Password)
+✅ Firestore (Real-time database)
+✅ Firebase Storage (Image/audio storage)
+✅ Cloud Functions (Node.js/TypeScript)
+✅ Firebase Analytics
+✅ Firebase Performance Monitoring
+✅ Firebase Remote Config
+✅ Firebase Cloud Messaging (Push notifications)
+```
+
+### **AI & Machine Learning**
+```python
+# Dual AI System:
+Primary: Gemini Flash - Real-time coaching and analysis
+Secondary: Gemini 2.5 Pro - Complex food recognition and clarification
+```
+
+### **Development Strategy: Parallel Agents**
+```yaml
+Agent_1: "Frontend_Architect"
+  - SwiftUI 6 views and components
+  - MVVM architecture implementation
+  - UI/UX design system
+
+Agent_2: "Backend_Engineer" 
+  - Firebase integration and Cloud Functions
+  - Database schema design
+  - API endpoint development
+
+Agent_3: "AI_Engineer"
+  - Gemini integration and prompt engineering
+  - Clarification system enhancement
+  - Coaching algorithm development
+
+Agent_4: "QA_Engineer"
+  - Testing strategy and implementation
+  - Debugging interface development
+  - Performance monitoring setup
+```
+
+---
+
+## 🔧 **XcodeBuildMCP Integration & Capabilities**
+
+### **MCP Server Setup**
+```bash
+# Install XcodeBuildMCP
+claude mcp add --scope project xcodebuild npx @cameroncooke/xcodebuild-mcp
+
+# Verify installation
+claude mcp list
+
+# The server provides comprehensive Xcode automation tools
+```
+
+### **Available XcodeBuildMCP Tools**
+
+#### **1. Project Management**
+- **discover_projects**: Find all Xcode projects in workspace
+- **list_schemes**: Show available build schemes
+- **get_build_settings**: Retrieve project configuration
+- **clean_build**: Clean build artifacts
+
+#### **2. Simulator Control**
+- **list_simulators**: Display available iOS simulators
+- **boot_simulator**: Start iPhone 16 Pro simulator
+- **open_simulator**: Launch simulator UI
+- **install_app**: Deploy app to simulator
+- **launch_app**: Run app with bundle ID
+- **stop_app**: Terminate running app
+- **capture_screenshot**: Take simulator screenshots
+
+#### **3. Build & Test**
+- **build_for_simulator**: Compile app for iPhone 16 Pro
+- **run_tests**: Execute test suites on simulator
+- **capture_logs**: Get runtime console output
+
+#### **4. UI Automation**
+- **interact_with_ui**: Tap, swipe, and navigate
+- **inspect_elements**: Get UI element information
+- **validate_ui_state**: Verify feature implementation
+
+### **Standard Development Workflow**
+```yaml
+Feature Development Process:
+  1. Code Implementation:
+     - Write/modify SwiftUI views and logic
+     - Ensure proper data flow and state management
+  
+  2. Build with XcodeBuildMCP:
+     - Use 'build_for_simulator' targeting iPhone 16 Pro
+     - Check build logs for any errors
+  
+  3. Deploy & Test:
+     - Use 'boot_simulator' to start iPhone 16 Pro
+     - Use 'install_app' to deploy latest build
+     - Use 'launch_app' to run PlateUp
+  
+  4. Feature Validation:
+     - Navigate to new/modified feature using 'interact_with_ui'
+     - Test functionality with realistic user flows
+     - Use 'capture_screenshot' to document working state
+     - Save screenshots with descriptive names (e.g., "onboarding_flow_complete.png")
+  
+  5. Verification:
+     - Review screenshots to confirm UI matches design
+     - Check 'capture_logs' for any runtime errors
+     - Validate all acceptance criteria met
+```
+
+### **Example MCP Commands for PlateUp**
+```javascript
+// Build PlateUp for iPhone 16 Pro
+await xcodebuild.build_for_simulator({
+  scheme: "PlateUp",
+  simulator: "iPhone 16 Pro"
+});
+
+// Start simulator and install app
+await xcodebuild.boot_simulator({ name: "iPhone 16 Pro" });
+await xcodebuild.install_app({ 
+  app_path: "path/to/PlateUp.app",
+  simulator: "iPhone 16 Pro" 
+});
+
+// Launch and navigate to AI Coach tab
+await xcodebuild.launch_app({ bundle_id: "com.plateup.app" });
+await xcodebuild.interact_with_ui({ 
+  action: "tap",
+  element: "AI Coach Tab" 
+});
+
+// Take screenshot of feature
+await xcodebuild.capture_screenshot({
+  filename: "ai_coach_interface_v2.png",
+  simulator: "iPhone 16 Pro"
+});
+```
+
+---
+
+## 🎨 **Design System: Enhanced Green Sophistication**
+
+### **Color Palette Evolution**
+```swift
+// Sophisticated Green System
+enum PlateUpColors {
+    // Primary Greens
+    static let forestGreen = Color(hex: "0F4C3A")      // Dark, sophisticated
+    static let primaryGreen = Color(hex: "1B5E20")     // Main brand
+    static let mediumGreen = Color(hex: "2E7D32")      // Interactive elements
+    static let accentGreen = Color(hex: "4CAF50")      // Success states
+    static let lightGreen = Color(hex: "81C784")       // Backgrounds
+    static let paleGreen = Color(hex: "C8E6C9")        // Subtle accents
+    
+    // Supporting Colors
+    static let warmGreen = Color(hex: "689F38")        // Energy indicators
+    static let coolGreen = Color(hex: "00695C")        // Sleep/recovery
+    static let brightGreen = Color(hex: "76FF03")      // Achievements
+}
+
+// Dynamic color system for different contexts
+extension Color {
+    static func plateUpGreen(for context: UIContext, intensity: CGFloat = 1.0) -> Color {
+        // Returns appropriate green based on context and intensity
+    }
+}
+```
+
+### **Design Principles**
+- **Subtle Sophistication**: Multiple green shades create depth without overwhelming
+- **Context-Aware**: Different greens for different data types (energy, sleep, nutrition)
+- **Accessibility First**: Maintain contrast ratios across all green variations
+- **Emotional Connection**: Greens evoke health, growth, and natural wellness
+
+---
+
+## 🚨 **CRITICAL UI/UX CHANGES - IMPLEMENT FIRST**
+
+### **Major Color System Overhaul**
+**IMPORTANT: GREEN REDUCTION FROM 50% TO 10-20%**
+- **Navigation icons:** Change from green fill to WHITE
+- **CQ icons:** Change from green to WHITE
+- **Camera scan rectangle:** Change from green to WHITE
+- **Text colors:** Replace green text with WHITE where applicable
+- **Green usage:** ONLY for accent highlights, success states, and subtle brand identity
+
+### **Navigation Animation System**
+**NEW: Spring-based card swiping between all screens**
+```swift
+// Dynamic animation speed based on tab distance
+animationDuration = baseSpeed * abs(currentTabIndex - selectedTabIndex)
+
+// Direction logic
+if currentTabIndex < selectedTabIndex {
+    // Slide left (forward)
+} else {
+    // Slide right (backward)
+}
+```
+- **Remove:** Bottom-up camera animation
+- **Replace with:** Consistent horizontal swipe animation
+
+### **Critical UI Width Adjustments**
+- **AI Coach cards:** Expand width to use most of screen space
+- **Remove:** Excessive padding that makes content too narrow
+- **Clarification Questions:** Fixed height, NO SCROLLING
+
+### **Voice UI Overlay Changes**
+- **Photo + Voice:** Semi-transparent voice UI overlays on photo
+- **AI Coach voice:** Messages-style inline voice bubble (no navigation)
+- **Recording time:** Increase from 10 to 20 seconds
+
+### **Tab Content Reorganization**
+- **Move to AI Coach tab:** All meal/ingredient suggestions (from Focus)
+- **Move to Focus tab:** All check-ins (4 per day)
+- **Add to both Focus & Momentum:** Micro-nutrient tracking (B-vitamins, Vitamin C, Iron, Magnesium, Zinc, Calcium)
+
+---
+
+## 🤖 **AI Coaching System Architecture**
+
+### **Gemini Flash AI Coach**
+```swift
+// PersonalizedNutritionCoach.swift
+class PersonalizedNutritionCoach: ObservableObject {
+    
+    // CORE ANALYSIS FEATURES
+    func analyzeUserProgress() async -> CoachingInsights {
+        // Analyze sleep quality vs meal timing
+        // Identify energy patterns vs food choices
+        // Track performance vs nutrition timing
+        // Generate personalized recommendations
+    }
+    
+    func generateMealRecommendations() async -> [MealRecommendation] {
+        // Based on goals, progress, and past meals
+        // Considers meal timing for optimal results
+        // Suggests specific foods and portions
+    }
+    
+    func provideFeedbackOnCurrentDiet() async -> DietAnalysis {
+        // Critical analysis of current eating patterns
+        // Specific suggestions for improvement
+        // Clear reasoning behind recommendations
+    }
+}
+
+// Example AI Coaching Prompt
+let coachingPrompt = """
+You are a expert nutrition coach analyzing {user_name}'s progress data:
+
+GOALS: {primary_goal}, {secondary_goals}
+RECENT MEALS: {past_7_days_meals}
+SLEEP DATA: {sleep_quality_correlation}
+ENERGY PATTERNS: {energy_vs_meal_timing}
+PERFORMANCE METRICS: {workout_quality_data}
+
+Provide specific, actionable coaching:
+1. What foods/timing are hurting their {primary_goal}?
+2. What changes should they make this week?
+3. What should they eat tomorrow and WHEN?
+4. Rate their current diet (1-10) with specific criticism
+
+Be direct, helpful, and data-driven. Reference specific meals and patterns.
+"""
+```
+
+### **Enhanced Clarification System**
+```swift
+// ClarificationFeedbackSystem.swift
+struct ClarificationQuestion {
+    let id: UUID
+    let question: String
+    let options: [String]
+    var userAnswer: String?
+    var feedbackRating: FeedbackRating?
+    var isHelpful: Bool?
+}
+
+enum FeedbackRating {
+    case thumbsUp    // Question was useful and made sense
+    case thumbsDown  // Question was irrelevant or confusing
+}
+
+// Human feedback improves AI over time
+class ClarificationLearningSystem {
+    func processFeedback(_ feedback: FeedbackRating, for question: ClarificationQuestion) {
+        // Store feedback in Firebase
+        // Update AI prompts based on patterns
+        // Reduce similar low-rated questions
+    }
+}
+```
+
+---
+
+## 📱 **Enhanced UX & User Journey**
+
+### **Onboarding: Clear Intent & Vision**
+```swift
+// OnboardingPhilosophy: Each screen has clear purpose
+enum OnboardingIntent {
+    case establishTrust        // "We understand your real goals"
+    case gatherGoalData       // "What do you really want to achieve?"
+    case explainValue         // "Here's how PlateUp will help YOU specifically"
+    case setExpectations      // "Your personalized coach will do X, Y, Z"
+    case createMotivation     // "Imagine feeling [their specific goal] in 90 days"
+}
+
+// Example improved onboarding flow
+struct EnhancedOnboardingFlow {
+    // Phase 1: Vision Setting (3 screens)
+    // - What's your real health goal? (not just "lose weight")
+    // - Paint your success picture (90-day vision)
+    // - Why this matters to you personally
+    
+    // Phase 2: Data Collection (4 screens)  
+    // - Body metrics (with explanation of why we need each)
+    // - Energy patterns (with coaching preview)
+    // - Lifestyle context (with personalization examples)
+    // - Current challenges (with solution preview)
+    
+    // Phase 3: Expectation Setting (2 screens)
+    // - Your personalized coach preview
+    // - Dashboard walkthrough with their actual data
+}
+```
+
+### **Progress Tracking: Purpose-Driven**
+```swift
+// Each progress card has clear purpose
+enum ProgressCardPurpose {
+    case coachingInsight      // "Based on your data, here's what's happening"
+    case actionableAdvice     // "Do this specific thing tomorrow"
+    case patternRecognition   // "We noticed this pattern affecting your [goal]"
+    case goalProgress         // "You're X% closer to [specific vision]"
+    case motivationalData     // "Your consistency is paying off"
+}
+
+// Example purpose-driven progress card
+struct EnergyCoachingCard: View {
+    let analysis: EnergyAnalysis
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            // INSIGHT
+            Text("Your 3pm energy crashes correlate with lunch timing")
+                .font(.headline)
+                .foregroundColor(.plateUpGreen(.insight))
+            
+            // DATA VISUALIZATION
+            EnergyTimingChart(data: analysis.energyTimingData)
+            
+            // SPECIFIC ACTION
+            ActionableAdviceView(
+                title: "Eat lunch by 12:30pm tomorrow",
+                reasoning: "Moving lunch earlier prevents the glucose spike-crash cycle",
+                expectedResult: "Sustained afternoon energy"
+            )
+            
+            // PROGRESS INDICATOR
+            ProgressTowardsGoal(
+                current: analysis.crashFreeDays,
+                target: analysis.targetCrashFreeDays,
+                goalName: "Stable Energy"
+            )
+        }
+        .plateUpCard(.coaching)
+    }
+}
+```
+
+---
+
+## 🔧 **Development Implementation Plan**
+
+### **Phase 1: Foundation (Weeks 1-2)**
+**Parallel Agent Tasks:**
+
+```yaml
+Frontend_Architect:
+  - SwiftUI 6 project setup with new @Observable
+  - Enhanced green color system implementation
+  - Core navigation structure
+  - Reusable component library
+
+Backend_Engineer:
+  - Firebase project configuration (remove all Supabase)
+  - Cloud Functions setup for AI processing
+  - Firestore schema design for coaching data
+  - Authentication system implementation
+
+AI_Engineer:
+  - Gemini Flash integration for coaching
+  - Enhanced prompt engineering for clarification
+  - Feedback learning system architecture
+  - Initial coaching algorithm development
+
+QA_Engineer:
+  - Testing framework setup with SwiftUI 6
+  - Debugging interface design
+  - Performance monitoring implementation
+  - Error tracking system
+```
+
+### **Phase 2: Core Features (Weeks 3-5)**
+```yaml
+Frontend_Architect:
+  - Enhanced onboarding flow (purpose-driven)
+  - Progress tracking redesign
+  - AI coaching interface
+  - Voice input improvements
+
+Backend_Engineer:
+  - Meal analysis pipeline
+  - User progress analytics
+  - Coaching data aggregation
+  - Real-time sync optimization
+
+AI_Engineer:
+  - Coaching algorithm refinement
+  - Clarification feedback processing
+  - Pattern recognition systems
+  - Recommendation engine
+
+QA_Engineer:
+  - Integration testing
+  - AI coaching accuracy validation
+  - Performance optimization
+  - User feedback systems
+```
+
+### **Phase 3: AI Coaching (Weeks 6-8)**
+```yaml
+Frontend_Architect:
+  - Dashboard personalization
+  - Coaching interaction UI
+  - Advanced animations
+  - Accessibility enhancements
+
+Backend_Engineer:
+  - Advanced analytics processing
+  - Recipe generation backend
+  - Notification systems
+  - Performance optimization
+
+AI_Engineer:
+  - Advanced coaching features
+  - Meal timing optimization
+  - Goal-specific recommendations
+  - Learning system refinement
+
+QA_Engineer:
+  - End-to-end testing
+  - AI coaching validation
+  - Performance benchmarking
+  - Launch preparation
+```
+
+---
+
+## 📸 **Feature Development & Verification Workflow**
+
+### **MANDATORY: Screenshot-Driven Development**
+```yaml
+Every Feature Implementation MUST Follow:
+  1. Code Implementation:
+     - Write/modify SwiftUI views
+     - Implement business logic
+     - Connect to Firebase backend
+  
+  2. Build with XcodeBuildMCP:
+     - xcodebuild.build_for_simulator (iPhone 16 Pro)
+     - Fix any build errors immediately
+     - Never proceed if build fails
+  
+  3. Deploy & Navigate:
+     - xcodebuild.boot_simulator
+     - xcodebuild.install_app
+     - xcodebuild.launch_app
+     - Navigate to specific feature
+  
+  4. Visual Verification:
+     - Take screenshot of EVERY new/modified screen
+     - Name screenshots descriptively
+     - Document different states (empty, loaded, error)
+  
+  5. Feature Acceptance:
+     - Screenshot proves UI matches design
+     - All interactions work correctly
+     - No errors in logs
+     - Performance acceptable
+```
+
+### **Screenshot Naming Convention**
+```yaml
+Format: feature_screen_state_version.png
+
+Examples:
+  - onboarding_welcome_initial_v2.png
+  - ai_coach_main_loaded_v2.png
+  - ai_coach_voice_recording_v2.png
+  - camera_scan_clarification_v2.png
+  - focus_tab_empty_state_v2.png
+  - momentum_charts_week_view_v2.png
+```
+
+### **Feature-Specific Test Scenarios**
+```javascript
+// Example: Testing AI Coach Voice Feature
+async function testAICoachVoice() {
+    // Build and deploy
+    await xcodebuild.build_for_simulator({ scheme: "PlateUp", simulator: "iPhone 16 Pro" });
+    await xcodebuild.launch_app({ bundle_id: "com.plateup.app" });
+    
+    // Navigate to AI Coach
+    await xcodebuild.interact_with_ui({ action: "tap", element: "AI Coach Tab" });
+    await xcodebuild.capture_screenshot({ filename: "ai_coach_main_v2.png" });
+    
+    // Test voice recording
+    await xcodebuild.interact_with_ui({ action: "tap", element: "Voice Button" });
+    await xcodebuild.capture_screenshot({ filename: "ai_coach_voice_overlay_v2.png" });
+    
+    // Verify inline voice bubble (per requirements)
+    await xcodebuild.capture_screenshot({ filename: "ai_coach_voice_bubble_v2.png" });
+}
+```
+
+---
+
+## 🔬 **Enhanced Debugging & Monitoring Interface**
+
+### **Developer Dashboard**
+```swift
+// AdminDashboard.swift - For debugging and monitoring
+struct DeveloperDashboard: View {
+    @StateObject private var monitor = SystemMonitor()
+    
+    var body: some View {
+        TabView {
+            // REAL-TIME REQUESTS
+            RequestMonitorView()
+                .tabItem { Label("Requests", systemImage: "network") }
+            
+            // AI ANALYSIS STATS
+            AIAnalyticsView()
+                .tabItem { Label("AI Stats", systemImage: "brain.head.profile") }
+            
+            // USER FEEDBACK
+            FeedbackAnalyticsView()
+                .tabItem { Label("Feedback", systemImage: "hand.thumbsup") }
+            
+            // PERFORMANCE METRICS
+            PerformanceView()
+                .tabItem { Label("Performance", systemImage: "speedometer") }
+        }
+    }
+}
+
+struct RequestMonitorView: View {
+    var body: some View {
+        List {
+            Section("Image Scan Requests") {
+                ForEach(monitor.recentImageScans) { scan in
+                    RequestDetailRow(
+                        timestamp: scan.timestamp,
+                        processingTime: scan.processingTime,
+                        accuracy: scan.accuracyScore,
+                        clarifications: scan.clarificationCount
+                    )
+                }
+            }
+            
+            Section("Voice Scan Requests") {
+                ForEach(monitor.recentVoiceScans) { scan in
+                    VoiceRequestDetailRow(scan: scan)
+                }
+            }
+            
+            Section("Clarification Questions") {
+                ForEach(monitor.recentClarifications) { clarification in
+                    ClarificationDetailRow(
+                        question: clarification.question,
+                        response: clarification.userResponse,
+                        feedback: clarification.userFeedback,
+                        improvedAccuracy: clarification.accuracyImprovement
+                    )
+                }
+            }
+        }
+    }
+}
+```
+
+### **AI Performance Tracking**
+```swift
+// AI monitoring and improvement tracking
+class AIPerformanceTracker: ObservableObject {
+    @Published var clarificationAccuracy: Double = 0.0
+    @Published var userSatisfactionScore: Double = 0.0
+    @Published var averageQuestionsPerScan: Double = 0.0
+    @Published var thumbsUpPercentage: Double = 0.0
+    
+    func trackClarificationFeedback(_ feedback: FeedbackRating, for question: ClarificationQuestion) {
+        // Real-time tracking of clarification usefulness
+        // Update prompts based on low-rated questions
+        // Monitor improvement over time
+    }
+}
+```
+
+---
+
+## 🍽️ **Advanced Features Architecture**
+
+### **Recipe Generation System**
+```swift
+// RecipeGenerationEngine.swift
+class PersonalizedRecipeGenerator: ObservableObject {
+    
+    func generateRecipe(for user: UserProfile) async -> PersonalizedRecipe {
+        let prompt = """
+        Generate a recipe for {user.name} based on their specific data:
+        
+        GOALS: {user.primaryGoal} (focus: {user.goalSpecificNeeds})
+        REMAINING TODAY: {user.remainingMacros}
+        RECENT MEALS: {user.lastWeekMeals}
+        MEAL TIMING: Optimal time for this user is {user.optimalNextMealTime}
+        
+        CONSTRAINTS:
+        - Foods that have improved their {primaryGoal}: {user.beneficialFoods}
+        - Foods that hurt their {primaryGoal}: {user.harmfulFoods}
+        - Available cooking time: {user.availableCookingTime}
+        - Kitchen equipment: {user.kitchenEquipment}
+        
+        Provide:
+        1. Specific recipe with exact portions
+        2. Why this recipe supports their {primaryGoal}
+        3. Optimal timing for consumption
+        4. Expected impact on their metrics
+        """
+        
+        return await GeminiFlash.generateRecipe(prompt: prompt)
+    }
+}
+```
+
+### **Nutrition Coaching System**
+```swift
+// AdvancedNutritionCoach.swift
+class AdvancedNutritionCoach: ObservableObject {
+    
+    func analyzeWeeklyProgress(_ user: UserProfile) async -> WeeklyCoachingReport {
+        // Analyze patterns in user's data
+        let sleepFoodCorrelations = analyzeSleepVsFoodChoices(user.weekData)
+        let energyMealTimingCorrelations = analyzeEnergyVsMealTiming(user.weekData)
+        let performanceNutritionCorrelations = analyzePerformanceVsNutrition(user.weekData)
+        
+        return WeeklyCoachingReport(
+            keyInsights: generateKeyInsights(correlations),
+            specificCriticisms: generateConstructiveCriticism(user.dietQuality),
+            actionablePlans: generateWeeklyPlan(user.goals, user.schedule),
+            expectedOutcomes: predictOutcomes(user.adherenceHistory)
+        )
+    }
+    
+    func generateMealTimingRecommendations(_ user: UserProfile) async -> [TimingRecommendation] {
+        // Based on circadian rhythms, goals, and lifestyle
+        let recommendations = await GeminiFlash.analyze(prompt: """
+        Analyze {user.name}'s optimal meal timing:
+        
+        GOAL: {user.primaryGoal}
+        SCHEDULE: {user.dailySchedule}
+        CURRENT TIMING: {user.currentMealTimes}
+        ENERGY PATTERNS: {user.energyPatterns}
+        SLEEP QUALITY: {user.sleepData}
+        
+        Provide specific timing recommendations:
+        1. Breakfast: Exact time and reasoning
+        2. Lunch: Exact time and reasoning  
+        3. Dinner: Exact time and reasoning
+        4. Snacks: If needed, when and why
+        5. Pre-workout: If applicable, timing and foods
+        6. Post-workout: If applicable, timing and foods
+        
+        Explain how this timing supports their {primaryGoal}.
+        """)
+        
+        return parseTimingRecommendations(recommendations)
+    }
+}
+```
+
+---
+
+## 📲 **Voice Input Widget (External)**
+
+### **iOS Widget Implementation**
+```swift
+// VoiceMealWidget.swift - External voice logging
+struct VoiceMealWidget: Widget {
+    let kind: String = "VoiceMealWidget"
+    
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: Provider()) { entry in
+            VoiceMealWidgetEntryView(entry: entry)
+        }
+        .configurationDisplayName("Quick Meal Log")
+        .description("Tap to quickly log meals by voice")
+        .supportedFamilies([.systemSmall])
+    }
+}
+
+struct VoiceMealWidgetEntryView: View {
+    var entry: Provider.Entry
+    
+    var body: some View {
+        VStack {
+            Image(systemName: "mic.circle.fill")
+                .font(.largeTitle)
+                .foregroundColor(.plateUpGreen(.primary))
+            
+            Text("Log Meal")
+                .font(.caption)
+                .fontWeight(.semibold)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.plateUpGreen(.pale))
+        .widgetURL(URL(string: "plateup://voice-log"))
+    }
+}
+
+// In main app - handle widget taps
+func handleWidgetTap() {
+    // Open directly to voice logging interface
+    // Optimize for quick, hands-free usage
+    // Perfect for car usage scenario
+}
+```
+
+---
+
+## 🧪 **Testing & Quality Assurance with XcodeBuildMCP**
+
+### **Automated Feature Testing Workflow**
+```yaml
+Testing Protocol with XcodeBuildMCP:
+  1. Build & Deploy:
+     - Use xcodebuild.build_for_simulator for iPhone 16 Pro
+     - Deploy using xcodebuild.install_app
+     - Launch app with xcodebuild.launch_app
+  
+  2. Visual Testing:
+     - Navigate to feature using xcodebuild.interact_with_ui
+     - Take screenshots with xcodebuild.capture_screenshot
+     - Document all UI states and flows
+  
+  3. Functional Testing:
+     - Test user interactions (tap, swipe, input)
+     - Verify data persistence and state changes
+     - Capture logs with xcodebuild.capture_logs
+  
+  4. Screenshot Documentation:
+     - Onboarding: "onboarding_step1.png", "onboarding_complete.png"
+     - AI Coach: "ai_coach_main.png", "ai_coach_recommendation.png"
+     - Camera: "camera_scan.png", "clarification_questions.png"
+     - Progress: "focus_tab.png", "momentum_charts.png"
+```
+
+### **Test Suite with MCP Integration**
+```javascript
+// PlateUpTestSuite.js - MCP-based testing
+const PlateUpTests = {
+    
+    // TEST: Onboarding Flow
+    async testOnboardingFlow() {
+        // Build and deploy
+        await xcodebuild.build_for_simulator({ scheme: "PlateUp", simulator: "iPhone 16 Pro" });
+        await xcodebuild.boot_simulator({ name: "iPhone 16 Pro" });
+        await xcodebuild.install_app({ app_path: "build/PlateUp.app" });
+        await xcodebuild.launch_app({ bundle_id: "com.plateup.app" });
+        
+        // Test each onboarding screen
+        await xcodebuild.capture_screenshot({ filename: "test_onboarding_welcome.png" });
+        await xcodebuild.interact_with_ui({ action: "tap", element: "Get Started" });
+        
+        await xcodebuild.capture_screenshot({ filename: "test_onboarding_goals.png" });
+        await xcodebuild.interact_with_ui({ action: "tap", element: "More Energy" });
+        
+        // Verify final state
+        await xcodebuild.capture_screenshot({ filename: "test_onboarding_complete.png" });
+    },
+    
+    // TEST: AI Coach Feature
+    async testAICoachInterface() {
+        await xcodebuild.launch_app({ bundle_id: "com.plateup.app" });
+        
+        // Navigate to AI Coach
+        await xcodebuild.interact_with_ui({ action: "tap", element: "AI Coach Tab" });
+        await xcodebuild.capture_screenshot({ filename: "test_ai_coach_main.png" });
+        
+        // Test voice input
+        await xcodebuild.interact_with_ui({ action: "tap", element: "Voice Button" });
+        await xcodebuild.capture_screenshot({ filename: "test_ai_coach_voice.png" });
+    },
+    
+    // TEST: Camera Scan & Clarification
+    async testCameraScanFlow() {
+        await xcodebuild.launch_app({ bundle_id: "com.plateup.app" });
+        
+        // Navigate to Camera
+        await xcodebuild.interact_with_ui({ action: "tap", element: "Camera Tab" });
+        await xcodebuild.capture_screenshot({ filename: "test_camera_ready.png" });
+        
+        // Simulate scan (would need mock data)
+        await xcodebuild.interact_with_ui({ action: "tap", element: "Capture Button" });
+        await xcodebuild.capture_screenshot({ filename: "test_clarification_questions.png" });
+    }
+};
+```
+
+### **Validation Checklist**
+```yaml
+Feature Validation Requirements:
+  ✅ Screenshot proves feature is visually correct
+  ✅ Navigation flows work as designed
+  ✅ No runtime errors in logs
+  ✅ UI elements respond to interactions
+  ✅ Data persists correctly
+  ✅ Performance metrics acceptable
+```
+
+---
+
+## 🛠️ **CRITICAL BUILD & DEBUG REQUIREMENTS with XcodeBuildMCP**
+
+### **MANDATORY: Always Build & Test Features with MCP**
+**EVERY AGENT MUST follow these steps after making code changes:**
+
+```javascript
+// Step 1: Build for iPhone 16 Pro simulator
+await xcodebuild.build_for_simulator({
+    scheme: "PlateUp",
+    simulator: "iPhone 16 Pro"
+});
+
+// Step 2: If build succeeds, deploy and test
+await xcodebuild.boot_simulator({ name: "iPhone 16 Pro" });
+await xcodebuild.install_app({ app_path: "build/PlateUp.app" });
+await xcodebuild.launch_app({ bundle_id: "com.plateup.app" });
+
+// Step 3: Navigate to modified feature and screenshot
+await xcodebuild.interact_with_ui({ /* navigation commands */ });
+await xcodebuild.capture_screenshot({ filename: "feature_verification.png" });
+```
+
+**If build fails, IMMEDIATELY:**
+1. **DO NOT proceed with other tasks**
+2. **Check build logs using xcodebuild.capture_logs**
+3. **USE @ClaudeDebugApproach.md methodology**
+4. **Fix ALL build errors before continuing**
+5. **Re-build using MCP to verify fixes**
+
+### **MCP-Based Debugging Protocol**
+When encountering build errors:
+
+1. **Build & Capture Errors**
+   ```javascript
+   const buildResult = await xcodebuild.build_for_simulator({
+       scheme: "PlateUp",
+       simulator: "iPhone 16 Pro"
+   });
+   
+   if (!buildResult.success) {
+       const logs = await xcodebuild.capture_logs();
+       // Analyze error logs
+   }
+   ```
+   
+2. **Error Analysis with MCP**
+   - Use xcodebuild.get_build_settings to check configuration
+   - Review logs from xcodebuild.capture_logs
+   - Identify specific error patterns
+   
+3. **Incremental Testing**
+   - Fix errors one module at a time
+   - Use xcodebuild.clean_build between major changes
+   - Test individual features with targeted builds
+   
+4. **Visual Verification**
+   - Always capture screenshots after fixes
+   - Document working state of each feature
+   - Save screenshots with descriptive names
+
+### **QA Engineer MCP Responsibilities**
+The QA_Engineer agent MUST:
+- Use xcodebuild.build_for_simulator after EVERY code change
+- Deploy to iPhone 16 Pro and test actual functionality
+- Take screenshots of all new/modified features
+- Use xcodebuild.capture_logs to monitor runtime errors
+- Never mark task complete without screenshot proof
+
+### **Feature Completion Criteria**
+- ✅ Build succeeds with xcodebuild.build_for_simulator
+- ✅ App launches on iPhone 16 Pro simulator
+- ✅ Feature works as designed (verified by navigation)
+- ✅ Screenshot captured showing working feature
+- ✅ No errors in xcodebuild.capture_logs
+- ✅ UI matches design specifications
+
+**REMEMBER: A feature is NOT complete without a screenshot proving it works!**
+
+### **MCP-POWERED DEBUGGING STRATEGY**
+
+**When builds fail or timeout, use XcodeBuildMCP's debugging tools:**
+
+1. **Quick Build Diagnostics**
+   ```javascript
+   // Get current build settings
+   const settings = await xcodebuild.get_build_settings({
+       scheme: "PlateUp"
+   });
+   
+   // Clean and retry if needed
+   await xcodebuild.clean_build({ scheme: "PlateUp" });
+   
+   // Try incremental build
+   await xcodebuild.build_for_simulator({
+       scheme: "PlateUp",
+       simulator: "iPhone 16 Pro",
+       clean: true
+   });
+   ```
+
+2. **Error Log Analysis**
+   ```javascript
+   // Capture detailed build logs
+   const logs = await xcodebuild.capture_logs({
+       filter: "error|warning",
+       limit: 100
+   });
+   
+   // Analyze specific error patterns
+   if (logs.includes("import SwiftUI")) {
+       // Missing import errors
+   }
+   ```
+
+3. **Module-by-Module Testing**
+   ```javascript
+   // Test individual features in isolation
+   await xcodebuild.build_for_simulator({
+       scheme: "PlateUp",
+       target: "PlateUpCore",  // Build core module first
+       simulator: "iPhone 16 Pro"
+   });
+   ```
+
+4. **Common SwiftUI/iOS Error Fixes**
+   - Use xcodebuild.discover_projects to verify project structure
+   - Use xcodebuild.list_schemes to ensure correct scheme names
+   - Check bundle identifiers match between code and settings
+   - Verify simulator compatibility with xcodebuild.list_simulators
+
+5. **Visual Debugging**
+   ```javascript
+   // If partial build succeeds, test what works
+   await xcodebuild.launch_app({ bundle_id: "com.plateup.app" });
+   
+   // Screenshot current state for debugging
+   await xcodebuild.capture_screenshot({ 
+       filename: "debug_current_state.png" 
+   });
+   
+   // Check runtime logs
+   const runtimeLogs = await xcodebuild.capture_logs({
+       runtime: true
+   });
+   ```
+
+6. **Incremental Feature Testing**
+   - Build with minimal features first
+   - Add one tab/feature at a time
+   - Screenshot each successful addition
+   - Document working configurations
+
+**IMPORTANT: XcodeBuildMCP provides real-time feedback - use it to quickly identify and fix issues!**
+
+---
+
+## 🚀 **Launch Strategy & Success Metrics**
+
+### **Target Metrics for 1000 Users**
+```yaml
+Performance Targets:
+  - Clarification questions: <2 per scan (vs current 3-4)
+  - Question relevance: >85% thumbs up rate
+  - Coaching accuracy: >90% user satisfaction
+  - Analysis speed: <10 seconds end-to-end
+  - App crash rate: <0.05%
+
+User Experience Targets:
+  - Onboarding completion: >90%
+  - Weekly coaching engagement: >70%
+  - Voice input usage: >40% of users
+  - Goal achievement tracking: >80% see progress
+
+Business Targets:
+  - User retention (30-day): >60%
+  - Feature adoption: >50% use coaching features
+  - Feedback quality: >4.5/5 app store rating
+  - Support tickets: <2% of user base
+```
+
+### **Pre-Launch Checklist**
+```yaml
+Technical Readiness:
+  - [ ] Firebase performance optimized for 1000+ users
+  - [ ] AI coaching responses average <5 seconds
+  - [ ] Voice widget tested across iOS versions
+  - [ ] Debugging interface fully functional
+  - [ ] Error tracking and alerts configured
+
+Feature Completeness:
+  - [ ] Enhanced clarification with feedback
+  - [ ] Personalized coaching system
+  - [ ] Purpose-driven progress tracking
+  - [ ] External voice logging widget
+  - [ ] Recipe generation (basic version)
+
+Quality Assurance:
+  - [ ] All test suites passing
+  - [ ] Load testing completed
+  - [ ] Accessibility compliance verified
+  - [ ] Privacy policy updated for coaching features
+  - [ ] App Store guidelines compliance
+```
+
+---
+
+## 🎯 **Claude Code Parallel Development Commands**
+
+### **Simultaneous Development Tasks**
+```bash
+# RUN THESE AGENTS IN PARALLEL:
+
+# Agent 1: Frontend Architecture
+claude-code --agent "frontend" --task "Create SwiftUI 6 views with enhanced green design system and purpose-driven onboarding flow"
+
+# Agent 2: Backend Integration  
+claude-code --agent "backend" --task "Implement Firebase-only architecture with Cloud Functions for AI coaching and analytics"
+
+# Agent 3: AI Engineering
+claude-code --agent "ai" --task "Develop Gemini Flash coaching system with clarification feedback learning"
+
+# Agent 4: Quality Assurance
+claude-code --agent "qa" --task "Create comprehensive testing suite and debugging interface for monitoring AI performance"
+```
+
+### **Specific Parallel Tasks**
+```yaml
+Week 1 Parallel Execution:
+  Frontend_Agent:
+    - Enhanced color system implementation
+    - SwiftUI 6 @Observable migration
+    - Core component library
+    
+  Backend_Agent:
+    - Firebase project setup (no Supabase)
+    - Cloud Functions architecture
+    - Firestore schema design
+    
+  AI_Agent:
+    - Gemini Flash integration
+    - Coaching prompt engineering
+    - Clarification feedback system
+    
+  QA_Agent:
+    - Test framework setup
+    - Debugging dashboard creation
+    - Performance monitoring tools
+```
+
+---
+
+## 💡 **Innovation Focus Areas**
+
+### **1. Personalized Nutrition Intelligence**
+- AI that understands individual responses to foods
+- Pattern recognition across sleep, energy, and performance
+- Predictive recommendations based on user-specific data
+
+### **2. Proactive Coaching Interface**
+- Coach that provides criticism and specific improvements
+- Data-driven insights with clear reasoning
+- Actionable plans tailored to user lifestyle and goals
+
+### **3. Seamless Voice Integration**
+- External widget for hands-free logging
+- Natural language meal description processing
+- Voice-activated coaching interactions
+
+### **4. Advanced Clarification Learning**
+- Human feedback improves AI questioning over time
+- Reduced question fatigue through smart learning
+- Context-aware question generation
+
+---
+
+## 🎉 **Success Definition**
+
+**PlateUp v2.0 succeeds when:**
+1. Users see it as their **personal nutrition coach**, not just a tracking app
+2. The AI provides **actionable insights** that measurably improve user outcomes
+3. Clarification questions are **genuinely helpful** (>85% thumbs up rate)
+4. Users achieve their **specific health goals** through data-driven guidance
+5. The app feels **effortless and intelligent** rather than burdensome
+
+**Technical Success:**
+- Zero critical bugs at launch
+- Sub-10-second AI response times
+- >90% user satisfaction with coaching quality
+- Successful handling of 1000+ concurrent users
+
+**Business Success:**
+- 60%+ 30-day retention rate
+- 4.5+ App Store rating
+- <2% support ticket rate
+- Strong user testimonials about goal achievement
+
+---
+
+**This blueprint transforms PlateUp from a nutrition tracker into a sophisticated AI-powered health coach that users will rely on for achieving their specific wellness goals. Every feature is designed with clear intent and measurable value for the user's journey.** 🚀 
+
+# important-instruction-reminders
+Do what has been asked; nothing more, nothing less.
+NEVER create files unless they're absolutely necessary for achieving your goal.
+ALWAYS prefer editing an existing file to creating a new one.
+NEVER proactively create documentation files (*.md) or README files. Only create documentation files if explicitly requested by the User.
+ALWAYS build and test features using XcodeBuildMCP:
+  - Build: xcodebuild.build_for_simulator({ scheme: "PlateUp", simulator: "iPhone 16 Pro" })
+  - Test: Boot simulator, install app, navigate to feature
+  - Verify: xcodebuild.capture_screenshot() to prove feature works
+ALWAYS use @ClaudeDebugApproach.md when build errors occur.
+NEVER mark a feature complete without a screenshot showing it works on iPhone 16 Pro simulator. 

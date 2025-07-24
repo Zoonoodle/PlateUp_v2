@@ -51,6 +51,16 @@ Thumbs.db
 build_log.txt
 *.log
 
+# Additional Xcode build artifacts
+**/build/
+**/build_*/
+**/DerivedData/
+**/ModuleCache.noindex/
+**/Index.noindex/
+**/build_output/
+**/build_test/
+**/build_fixed/
+
 # IDE files
 .vscode/
 .idea/

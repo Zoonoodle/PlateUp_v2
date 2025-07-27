@@ -70,4 +70,29 @@ build_log.txt
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+*.bak
+*.backup*
+*.disabled
+*.orig
+
+# Build logs and output
+build_output*.txt
+build_output*.log
+Build_*.txt
+app_logs.txt
+
+# Test and preview files
+*Preview.swift
+*Test.swift
+
+# Shell scripts for fixes (keep essential ones)
+fix-*.sh
+reset-*.sh
+clean-*.py
+
+# Old documentation files
+*_COMPLETE.md
+*_STATUS.md
+*_SUMMARY.md
+*Implementation.md 

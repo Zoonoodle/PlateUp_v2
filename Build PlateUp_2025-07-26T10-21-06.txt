@@ -1,0 +1,832 @@
+
+Showing Recent Issues
+
+Build target PlateUp of project PlateUp with configuration Debug
+
+SwiftCompile normal arm64 Compiling\ CardNavigationTransitionModifier.swift,\ EditProfileView.swift,\ PatternRecognitionView.swift,\ NotificationService.swift,\ DifferentiationView.swift,\ PlateUpLogoShape.swift,\ ProgressCharts.swift,\ MacroHorizontalBar.swift,\ ClarificationImpactCalculator.swift,\ DynamicAIInsightsCard.swift,\ NotificationSettingsView.swift,\ ChatGPTAICoachView.swift,\ MacroCompactBar.swift,\ CameraTestView.swift,\ ExerciseTypesView.swift,\ FoodSuggestionCard.swift,\ GoalsPreferencesView.swift,\ EnhancedMomentumView.swift,\ MinimalProgressBar.swift,\ ContextAdditionView.swift,\ NutritionData.swift,\ CommonTypes.swift,\ GeminiService.swift,\ AnimationTestView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/CardNavigationTransitionModifier.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/EditProfileView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Progress/Components/PatternRecognitionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/NotificationService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/DifferentiationView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/PlateUpLogoShape.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Progress/Components/ProgressCharts.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/MacroHorizontalBar.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/ClarificationImpactCalculator.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DynamicAIInsightsCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/NotificationSettingsView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Coach/ChatGPTAICoachView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/MacroCompactBar.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/Camera/CameraTestView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/ExerciseTypesView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/FoodSuggestionCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/GoalsPreferencesView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Momentum/EnhancedMomentumView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/MinimalProgressBar.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/ContextAdditionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/NutritionData.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/CommonTypes.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/GeminiService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Demo/AnimationTestView.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/CardNavigationTransitionModifier.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/CardNavigationTransitionModifier.swift:79:10: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+        .onChange(of: selectedTab) { newValue in
+         ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/CardNavigationTransitionModifier.swift:79:10: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/NotificationSettingsView.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/NotificationSettingsView.swift:46:26: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+                        .onChange(of: notificationsEnabled) { enabled in
+                         ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/NotificationSettingsView.swift:46:26: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/FoodSuggestionCard.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/FoodSuggestionCard.swift:88:32: warning: value 'recipeId' was defined but never used; consider replacing with boolean test
+                        if let recipeId = suggestion.recipeId {
+                           ~~~~^~~~~~~~~~~
+                                                              != nil
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/FoodSuggestionCard.swift:88:32: Value 'recipeId' was defined but never used; consider replacing with boolean test
+
+SwiftCompile normal arm64 Compiling\ ExerciseFrequencyView.swift,\ RedesignedCheckInCard.swift,\ IntegrationPreferencesView.swift,\ FocusCardManager.swift,\ MorningCheckInPage1.swift,\ WebSearchService.swift,\ HealthMetrics.swift,\ CheckInNotificationManager.swift,\ WindowGenerationTestView.swift,\ MicronutrientProgressView.swift,\ Meal.swift,\ MealWindowGoal.swift,\ ExercisePlanningCard.swift,\ DynamicCheckInsCard.swift,\ AppSettingsView.swift,\ BackgroundTaskService.swift,\ QuickWindowActions.swift,\ AIMealSuggestionViewModel.swift,\ BodyTypeSelectionViewV2.swift,\ MealPhotoView.swift,\ AuthViewModel.swift,\ MicronutrientTrackingViewV2.swift,\ AICoachingService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/ExerciseFrequencyView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/RedesignedCheckInCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/IntegrationPreferencesView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/FocusCardManager.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/MorningCheckInPage1.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WebSearchService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/HealthMetrics.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CheckInNotificationManager.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationTestView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/MicronutrientProgressView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/Meal.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/MealWindowGoal.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/ExercisePlanningCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DynamicCheckInsCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/AppSettingsView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/BackgroundTaskService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/QuickWindowActions.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/AIMealSuggestionViewModel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/BodyTypeSelectionViewV2.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/MealPhotoView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/AuthViewModel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/MicronutrientTrackingViewV2.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/AICoachingService.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/MorningCheckInPage1.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/MorningCheckInPage1.swift:33:17: warning: initialization of immutable value 'components' was never used; consider replacing with assignment to '_' or removing it
+            let components = calendar.dateComponents([.year, .month, .day], from: now)
+            ~~~~^~~~~~~~~~
+            _
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/MorningCheckInPage1.swift:33:17: Initialization of immutable value 'components' was never used; consider replacing with assignment to '_' or removing it
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/Meal.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/Meal.swift:501:13: warning: immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+        let id = UUID().uuidString
+            ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/Meal.swift:501:13: note: set the initial value via the initializer or explicitly define a CodingKeys enum including a 'id' case to silence this warning
+        let id = UUID().uuidString
+            ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/Meal.swift:501:13: note: make the property mutable instead
+        let id = UUID().uuidString
+        ~~~ ^
+        var
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/Meal.swift:501:13: Immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/MealWindowGoal.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/MealWindowGoal.swift:117:9: warning: immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+    let id = UUID()
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/MealWindowGoal.swift:117:9: note: set the initial value via the initializer or explicitly define a CodingKeys enum including a 'id' case to silence this warning
+    let id = UUID()
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/MealWindowGoal.swift:117:9: note: make the property mutable instead
+    let id = UUID()
+    ~~~ ^
+    var
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/MealWindowGoal.swift:117:9: Immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/ExercisePlanningCard.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/ExercisePlanningCard.swift:79:26: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+                        .onChange(of: isWorkoutPlanned) { newValue in
+                         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/ExercisePlanningCard.swift:144:26: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+                        .onChange(of: plannedWorkoutTime) { _ in
+                         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/ExercisePlanningCard.swift:386:35: warning: left side of nil coalescing operator '??' has non-optional type 'String', so the right side is never used
+            Text(meal.description ?? "")
+                 ~~~~~~~~~~~~~~~~~^~~~~
+                                 
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/ExercisePlanningCard.swift:79:26: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/ExercisePlanningCard.swift:144:26: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/ExercisePlanningCard.swift:386:35: Left side of nil coalescing operator '??' has non-optional type 'String', so the right side is never used
+
+SwiftCompile normal arm64 Compiling\ CardActionButton.swift,\ DynamicNutritionService.swift,\ InlineVoiceInputView.swift,\ SyncViewModelExtensions.swift,\ UniversalIcons.swift,\ WorkoutNutritionOptimizer.swift,\ QuickLogFlow.swift,\ WindowGenerationService.swift,\ WindowNotificationService.swift,\ CollapsibleCard.swift,\ HealthGoal.swift,\ EnhancedClarificationPromptGenerator.swift,\ FocusCardConfiguration.swift,\ TieredAnalysisSelectionView.swift,\ StreakAchievementService.swift,\ SupportView.swift,\ MealType.swift,\ CheckInService.swift,\ RedesignedCheckInNotificationView.swift,\ GeminiAPIService.swift,\ CameraPreviewView.swift,\ ImageStorageService.swift,\ DailyStatusBar.swift,\ WakeTimePickerView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/CardActionButton.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DynamicNutritionService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Coach/InlineVoiceInputView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/SyncViewModelExtensions.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/UniversalIcons.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WorkoutNutritionOptimizer.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Scan/QuickLogFlow.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WindowGenerationService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WindowNotificationService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/Components/CollapsibleCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/HealthGoal.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/EnhancedClarificationPromptGenerator.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/FocusCardConfiguration.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealAnalysis/TieredAnalysisSelectionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/StreakAchievementService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/SupportView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/MealType.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CheckInService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/RedesignedCheckInNotificationView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/GeminiAPIService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/Camera/CameraPreviewView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/ImageStorageService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/Components/DailyStatusBar.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/WakeTimePickerView.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DynamicNutritionService.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DynamicNutritionService.swift:233:13: warning: variable 'proteinBoost' was written to, but never read
+        var proteinBoost = 0.0
+            ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DynamicNutritionService.swift:233:13: Variable 'proteinBoost' was written to, but never read
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WindowNotificationService.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WindowNotificationService.swift:293:13: warning: switch must be exhaustive
+            switch settings.authorizationStatus {
+            ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WindowNotificationService.swift:293:13: note: add missing case: '.ephemeral'
+            switch settings.authorizationStatus {
+            ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WindowNotificationService.swift:293:13: Switch must be exhaustive
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/WakeTimePickerView.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/WakeTimePickerView.swift:125:10: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+        .onChange(of: selectedHour) { _ in updateSelectedTime() }
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/WakeTimePickerView.swift:126:10: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+        .onChange(of: selectedMinute) { _ in updateSelectedTime() }
+         ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/WakeTimePickerView.swift:125:10: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/WakeTimePickerView.swift:126:10: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+SwiftCompile normal arm64 Compiling\ VoiceOnlyLoggingView.swift,\ MicronutrientCalculator.swift,\ MealTimelineView.swift,\ DailyTotalsService.swift,\ CardAnimations.swift,\ RecentMealsSection.swift,\ MicronutrientService.swift,\ MultiGoalSelectionView.swift,\ EnhancedQuickActions.swift,\ SpeechRecognitionManager.swift,\ EnhancedLoadingStates.swift,\ TodaysMealsCard.swift,\ DynamicUpcomingWindowsCard.swift,\ MealHistoryViewExtensions.swift,\ MealAnalysisPendingView.swift,\ WindowSettingsView.swift,\ HeightSelectionView.swift,\ NavigationButton.swift,\ SwipeableNutritionCard.swift,\ PhotoCaptureFlow.swift,\ MealViewModel+Background.swift,\ BackgroundAnalysisView.swift,\ GeneratedAssetSymbols.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/VoiceOnlyLoggingView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MicronutrientCalculator.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/MealTimelineView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyTotalsService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/CardAnimations.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/RecentMealsSection.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MicronutrientService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/MultiGoalSelectionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Coach/EnhancedQuickActions.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/SpeechRecognitionManager.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/EnhancedLoadingStates.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/TodaysMealsCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DynamicUpcomingWindowsCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealHistory/MealHistoryViewExtensions.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/MealAnalysisPendingView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/WindowSettingsView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/HeightSelectionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/NavigationButton.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/SwipeableNutritionCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/Camera/PhotoCaptureFlow.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MealViewModel+Background.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/BackgroundAnalysisView.swift /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyTotalsService.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyTotalsService.swift:43:46: warning: conditional cast from '[String : Any]' to '[String : Any]' always succeeds
+            guard let data = document.data() as? [String: Any],
+                                             ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyTotalsService.swift:43:46: Conditional cast from '[String : Any]' to '[String : Any]' always succeeds
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MicronutrientService.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MicronutrientService.swift:160:11: warning: 'catch' block is unreachable because no errors are thrown in 'do' block
+        } catch {
+          ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MicronutrientService.swift:160:11: 'catch' block is unreachable because no errors are thrown in 'do' block
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/WindowSettingsView.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/WindowSettingsView.swift:221:15: warning: 'catch' block is unreachable because no errors are thrown in 'do' block
+            } catch {
+              ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/WindowSettingsView.swift:221:15: 'catch' block is unreachable because no errors are thrown in 'do' block
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MealViewModel+Background.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MealViewModel+Background.swift:319:19: warning: value 'userId' was defined but never used; consider replacing with boolean test
+        guard let userId = authViewModel.currentUser?.id else { return }
+              ~~~~^~~~~~~~~
+              (                                         ) != nil
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MealViewModel+Background.swift:319:19: Value 'userId' was defined but never used; consider replacing with boolean test
+
+SwiftCompile normal arm64 Compiling\ FocusCardCarousel.swift,\ EnergyTimingCardContent.swift,\ AICoachPolishDemo.swift,\ AgeSelectionViewV2.swift,\ CustomTabBar.swift,\ CoachView.swift,\ CameraTabSelector.swift,\ AnimationUtilities.swift,\ VoiceContextView.swift,\ OptimizedCalorieRing.swift,\ MealAnalyzingCard.swift,\ WindowGenerationServiceTests.swift,\ MealNutritionDetailView.swift,\ MealWindowGenerator.swift,\ WindowOnboardingView.swift,\ OnboardingContainerV2.swift,\ AuthStateView.swift,\ ScanningOverlays.swift,\ SelectionButtons.swift,\ MicroInsightView.swift,\ MealHistoryView.swift,\ User.swift,\ HomeView.swift,\ SingleFoodSuggestion.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/FocusCardCarousel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/CardContentViews/EnergyTimingCardContent.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Demo/AICoachPolishDemo.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/AgeSelectionViewV2.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/CustomTabBar.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Coach/CoachView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/Camera/CameraTabSelector.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Utilities/AnimationUtilities.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/Camera/VoiceContextView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/OptimizedCalorieRing.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/MealAnalyzingCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Tests/WindowGenerationServiceTests.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealDetail/MealNutritionDetailView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MealWindowGenerator.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WindowOnboardingView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/OnboardingContainerV2.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Authentication/AuthStateView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/Camera/ScanningOverlays.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/SelectionButtons.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/MicroInsightView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealHistory/MealHistoryView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/User.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Home/HomeView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SingleFoodSuggestion.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/FocusCardCarousel.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/FocusCardCarousel.swift:121:20: warning: value 'card' was defined but never used; consider replacing with boolean test
+            if let card = viewModel.focusCards.first {
+               ~~~~^~~~~~~
+                                                     != nil
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/FocusCardCarousel.swift:121:20: Value 'card' was defined but never used; consider replacing with boolean test
+
+SwiftCompile normal arm64 Compiling\ ColorExtensions.swift,\ CardGestureHandlers.swift,\ StreakAchievementView.swift,\ CameraManager.swift,\ VoiceOverlayView.swift,\ OnboardingContainerV3.swift,\ MealClarificationView.swift,\ NotificationAnalyticsService.swift,\ AppDelegate.swift,\ MealViewModel+Helpers.swift,\ WeightSelectionViewV2.swift,\ NutritionQualityScore.swift,\ DailyNutritionService.swift,\ MealWindowGoalService.swift,\ ContentView.swift,\ FocusCardViewModel.swift,\ SplashView.swift,\ CircularProgressView.swift,\ DynamicActiveMealWindowCard.swift,\ ClarificationFeedbackService.swift,\ AICoachViewModel.swift,\ EnhancedVoiceOnlyView.swift,\ SingleFoodSuggestionsView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Utilities/ColorExtensions.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/CardGestureHandlers.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Components/StreakAchievementView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/Camera/VoiceOverlayView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/OnboardingContainerV3.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/MealClarificationView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/NotificationAnalyticsService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/AppDelegate.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MealViewModel+Helpers.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WeightSelectionViewV2.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/NutritionQualityScore.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyNutritionService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MealWindowGoalService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ContentView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/FocusCardViewModel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/SplashView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Components/CircularProgressView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DynamicActiveMealWindowCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/ClarificationFeedbackService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/AICoachViewModel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/EnhancedVoiceOnlyView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/SingleFoodSuggestionsView.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:67:9: warning: main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+        session.beginConfiguration()
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:68:17: warning: main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+        defer { session.commitConfiguration() }
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:71:9: warning: main actor-isolated property 'session' can not be mutated from a nonisolated context; this is an error in the Swift 6 language mode
+        session.sessionPreset = .photo
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: mutation of this property is only permitted within the actor
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:82:19: warning: main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+            guard session.canAddInput(videoDeviceInput) else {
+                  ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:87:13: warning: main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+            session.addInput(videoDeviceInput)
+            ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:118:15: warning: main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+        guard session.canAddOutput(photoOutput) else {
+              ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:118:36: warning: main actor-isolated property 'photoOutput' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+        guard session.canAddOutput(photoOutput) else {
+                                   ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:19:17: note: property declared here
+    private let photoOutput = AVCapturePhotoOutput()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:123:9: warning: main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+        session.addOutput(photoOutput)
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:123:27: warning: main actor-isolated property 'photoOutput' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+        session.addOutput(photoOutput)
+                          ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:19:17: note: property declared here
+    private let photoOutput = AVCapturePhotoOutput()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:126:9: warning: main actor-isolated property 'photoOutput' can not be mutated from a nonisolated context; this is an error in the Swift 6 language mode
+        photoOutput.maxPhotoQualityPrioritization = .quality
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:19:17: note: mutation of this property is only permitted within the actor
+    private let photoOutput = AVCapturePhotoOutput()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:129:12: warning: main actor-isolated property 'photoOutput' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+        if photoOutput.isLivePhotoCaptureSupported {
+           ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:19:17: note: property declared here
+    private let photoOutput = AVCapturePhotoOutput()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:130:13: warning: main actor-isolated property 'photoOutput' can not be mutated from a nonisolated context; this is an error in the Swift 6 language mode
+            photoOutput.isLivePhotoCaptureEnabled = false // Disabled for food photos
+            ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:19:17: note: mutation of this property is only permitted within the actor
+    private let photoOutput = AVCapturePhotoOutput()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:138:22: warning: main actor-isolated property 'session' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+            if !self.session.isRunning {
+                     ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:139:22: warning: main actor-isolated property 'session' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+                self.session.startRunning()
+                     ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:150:21: warning: main actor-isolated property 'session' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+            if self.session.isRunning {
+                    ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:151:22: warning: main actor-isolated property 'session' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+                self.session.stopRunning()
+                     ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:17:17: note: property declared here
+    private let session = AVCaptureSession()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:175:16: warning: main actor-isolated property 'photoOutput' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+            if photoOutput.availablePhotoCodecTypes.contains(.hevc) {
+               ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:19:17: note: property declared here
+    private let photoOutput = AVCapturePhotoOutput()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:182:21: warning: main actor-isolated property 'photoOutput' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+            if self.photoOutput.supportedFlashModes.contains(self.flashMode) {
+                    ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:19:17: note: property declared here
+    private let photoOutput = AVCapturePhotoOutput()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:182:67: warning: main actor-isolated property 'flashMode' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+            if self.photoOutput.supportedFlashModes.contains(self.flashMode) {
+                                                                  ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:11:20: note: property declared here
+    @Published var flashMode: AVCaptureDevice.FlashMode = .auto
+                   ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:183:48: warning: main actor-isolated property 'flashMode' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+                photoSettings.flashMode = self.flashMode
+                                               ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:11:20: note: property declared here
+    @Published var flashMode: AVCaptureDevice.FlashMode = .auto
+                   ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:190:18: warning: main actor-isolated property 'photoOutput' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+            self.photoOutput.capturePhoto(with: photoSettings, delegate: self)
+                 ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:19:17: note: property declared here
+    private let photoOutput = AVCapturePhotoOutput()
+                ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:213:21: warning: capture of 'device' with non-sendable type 'AVCaptureDevice' in a '@Sendable' closure
+                try device.lockForConfiguration()
+                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureDevice.h:73:12: note: class 'AVCaptureDevice' does not conform to the 'Sendable' protocol
+@interface AVCaptureDevice : NSObject
+           ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:1:1: warning: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'AVFoundation'
+import AVFoundation
+^
+@preconcurrency 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:237:21: warning: capture of 'device' with non-sendable type 'AVCaptureDevice' in a '@Sendable' closure
+                try device.lockForConfiguration()
+                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureDevice.h:73:12: note: class 'AVCaptureDevice' does not conform to the 'Sendable' protocol
+@interface AVCaptureDevice : NSObject
+           ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:295:35: warning: capture of 'photo' with non-sendable type 'AVCapturePhoto' in a '@Sendable' closure
+                  let photoData = photo.fileDataRepresentation(),
+                                  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCapturePhotoOutput.h:1954:12: note: class 'AVCapturePhoto' does not conform to the 'Sendable' protocol
+@interface AVCapturePhoto : NSObject
+           ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:67:9: Main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:68:17: Main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:71:9: Main actor-isolated property 'session' can not be mutated from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:82:19: Main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:87:13: Main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:118:15: Main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:118:36: Main actor-isolated property 'photoOutput' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:123:9: Main actor-isolated property 'session' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:123:27: Main actor-isolated property 'photoOutput' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:126:9: Main actor-isolated property 'photoOutput' can not be mutated from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:129:12: Main actor-isolated property 'photoOutput' can not be referenced from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:130:13: Main actor-isolated property 'photoOutput' can not be mutated from a nonisolated context; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:138:22: Main actor-isolated property 'session' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:139:22: Main actor-isolated property 'session' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:150:21: Main actor-isolated property 'session' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:151:22: Main actor-isolated property 'session' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:175:16: Main actor-isolated property 'photoOutput' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:182:21: Main actor-isolated property 'photoOutput' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:182:67: Main actor-isolated property 'flashMode' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:183:48: Main actor-isolated property 'flashMode' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:190:18: Main actor-isolated property 'photoOutput' can not be referenced from a Sendable closure; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:213:21: Capture of 'device' with non-sendable type 'AVCaptureDevice' in a '@Sendable' closure
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:1:1: Add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'AVFoundation'
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:237:21: Capture of 'device' with non-sendable type 'AVCaptureDevice' in a '@Sendable' closure
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CameraManager.swift:295:35: Capture of 'photo' with non-sendable type 'AVCapturePhoto' in a '@Sendable' closure
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/MealClarificationView.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/MealClarificationView.swift:20:56: warning: left side of nil coalescing operator '??' has non-optional type '[ClarificationQuestion]', so the right side is never used
+        let allQuestions = meal.clarificationQuestions ?? []
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+                                                      
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/MealClarificationView.swift:385:13: warning: initialization of immutable value 'questionType' was never used; consider replacing with assignment to '_' or removing it
+        let questionType = detectQuestionType(question.question)
+        ~~~~^~~~~~~~~~~~
+        _
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/MealClarificationView.swift:20:56: Left side of nil coalescing operator '??' has non-optional type '[ClarificationQuestion]', so the right side is never used
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/MealClarificationView.swift:385:13: Initialization of immutable value 'questionType' was never used; consider replacing with assignment to '_' or removing it
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/NotificationAnalyticsService.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/NotificationAnalyticsService.swift:245:9: warning: immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+    let id = UUID()
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/NotificationAnalyticsService.swift:245:9: note: set the initial value via the initializer or explicitly define a CodingKeys enum including a 'id' case to silence this warning
+    let id = UUID()
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/NotificationAnalyticsService.swift:245:9: note: make the property mutable instead
+    let id = UUID()
+    ~~~ ^
+    var
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/NotificationAnalyticsService.swift:245:9: Immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WeightSelectionViewV2.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WeightSelectionViewV2.swift:176:10: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+        .onChange(of: selectedWeight) { _ in
+         ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WeightSelectionViewV2.swift:176:10: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyNutritionService.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyNutritionService.swift:257:34: warning: reference to captured var 'plan' in concurrently-executing code; this is an error in the Swift 6 language mode
+                self.dailyPlan = plan
+                                 ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyNutritionService.swift:278:34: warning: reference to captured var 'plan' in concurrently-executing code; this is an error in the Swift 6 language mode
+                self.dailyPlan = plan
+                                 ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyNutritionService.swift:604:34: warning: reference to captured var 'updatedPlan' in concurrently-executing code; this is an error in the Swift 6 language mode
+                self.dailyPlan = updatedPlan
+                                 ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyNutritionService.swift:257:34: Reference to captured var 'plan' in concurrently-executing code; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyNutritionService.swift:278:34: Reference to captured var 'plan' in concurrently-executing code; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/DailyNutritionService.swift:604:34: Reference to captured var 'updatedPlan' in concurrently-executing code; this is an error in the Swift 6 language mode
+
+SwiftCompile normal arm64 Compiling\ ScheduleConfigurationView.swift,\ InsightChart.swift,\ FeaturePreferencesView.swift,\ TabTransitionModifier.swift,\ MealTimePickerView.swift,\ HealthMetricsService.swift,\ EnhancedAnalyzingView.swift,\ ProfileView.swift,\ CheckInData.swift,\ SyncableModels.swift,\ RedesignedCheckInView.swift,\ CoachModels.swift,\ DailyActivityView.swift,\ MealPhotoViewExamples.swift,\ QuickPostMealCheckIn.swift,\ AddCardsGallery.swift,\ BodyTypeSelectionView.swift,\ CoachWelcomeView.swift,\ OnboardingContainer.swift,\ CheckInDeepLinkHandler.swift,\ EnergyPatternsView.swift,\ CheckInCompletionView.swift,\ AdaptiveSchedulingService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/ScheduleConfigurationView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/InsightChart.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/FeaturePreferencesView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/TabTransitionModifier.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Scan/MealTimePickerView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/HealthMetricsService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/EnhancedAnalyzingView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Profile/ProfileView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/CheckInData.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/RedesignedCheckInView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/CoachModels.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/DailyActivityView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/MealPhotoViewExamples.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIns/QuickPostMealCheckIn.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/Components/AddCardsGallery.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/BodyTypeSelectionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Coach/CoachWelcomeView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/OnboardingContainer.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CheckInDeepLinkHandler.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/EnergyPatternsView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/CheckInCompletionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/AdaptiveSchedulingService.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/TabTransitionModifier.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/TabTransitionModifier.swift:85:10: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+        .onChange(of: selectedTab) { newValue in
+         ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/TabTransitionModifier.swift:85:10: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:242:19: warning: immutable value 'id' was never used; consider replacing with '_' or removing it
+        guard let id = data["id"] as? String,
+              ~~~~^~
+              _
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:857:24: warning: expression implicitly coerced from '[String]?' to 'Any'
+            "options": options,
+                       ^~~~~~~
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:857:24: note: provide a default value to avoid this warning
+            "options": options,
+                       ^~~~~~~
+                               ?? <#default value#>
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:857:24: note: force-unwrap the value to avoid this warning
+            "options": options,
+                       ^~~~~~~
+                              !
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:857:24: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+            "options": options,
+                       ^~~~~~~
+                               as Any
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:858:25: warning: expression implicitly coerced from 'String?' to 'Any'
+            "category": category
+                        ^~~~~~~~
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:858:25: note: provide a default value to avoid this warning
+            "category": category
+                        ^~~~~~~~
+                                 ?? <#default value#>
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:858:25: note: force-unwrap the value to avoid this warning
+            "category": category
+                        ^~~~~~~~
+                                !
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:858:25: note: explicitly cast to 'Any' with 'as Any' to silence this warning
+            "category": category
+                        ^~~~~~~~
+                                 as Any
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:242:19: Immutable value 'id' was never used; consider replacing with '_' or removing it
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:857:24: Expression implicitly coerced from '[String]?' to 'Any'
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/SyncableModels.swift:858:25: Expression implicitly coerced from 'String?' to 'Any'
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/RedesignedCheckInView.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/RedesignedCheckInView.swift:235:37: warning: left side of nil coalescing operator '??' has non-optional type 'String', so the right side is never used
+                notes: tomorrowGoal ?? (todaysFocus?.label ?? ""),
+                       ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                   
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/RedesignedCheckInView.swift:235:37: Left side of nil coalescing operator '??' has non-optional type 'String', so the right side is never used
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CheckInDeepLinkHandler.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CheckInDeepLinkHandler.swift:152:32: warning: no 'async' operations occur within 'await' expression
+            guard let userId = await FirebaseService.shared.currentUser?.uid else { return }
+                               ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/CheckInDeepLinkHandler.swift:152:32: No 'async' operations occur within 'await' expression
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/AdaptiveSchedulingService.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/AdaptiveSchedulingService.swift:162:13: warning: initialization of immutable value 'now' was never used; consider replacing with assignment to '_' or removing it
+        let now = Date()
+        ~~~~^~~
+        _
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/AdaptiveSchedulingService.swift:162:13: Initialization of immutable value 'now' was never used; consider replacing with assignment to '_' or removing it
+
+SwiftCompile normal arm64 Compiling\ AuthTextField.swift,\ VoiceOnlyRecordingView.swift,\ WindowNutritionCalculator.swift,\ GuidanceLevelView.swift,\ MorningCheckInPage2.swift,\ EmptyStateView.swift,\ ElevatedTabButton.swift,\ CheckIn.swift,\ AnimatedProgressIndicator.swift,\ FirestoreDataService.swift,\ HealthConsiderationsView.swift,\ AudioRecorder.swift,\ ProgressDashboardView.swift,\ PlateUpApp.swift,\ CoachingInsight.swift,\ WeightTargetSelectionView.swift,\ WindowGenerationView.swift,\ BarcodeScanner.swift,\ WindowExplanationIntegrationView.swift,\ MicronutrientTrackingService.swift,\ WarningCardContent.swift,\ MealTimingView.swift,\ QuickActionsGrid.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/AuthTextField.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/VoiceOnlyRecordingView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WindowNutritionCalculator.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/GuidanceLevelView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/MorningCheckInPage2.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/EmptyStateView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/ElevatedTabButton.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/CheckIn.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/AnimatedProgressIndicator.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/FirestoreDataService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/HealthConsiderationsView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/AudioRecorder.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Progress/ProgressDashboardView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/PlateUpApp.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/CoachingInsight.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WeightTargetSelectionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/BarcodeScanner.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowExplanationIntegrationView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MicronutrientTrackingService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/CardContentViews/WarningCardContent.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/MealTimingView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/QuickActionsGrid.swift (in target 'PlateUp' from project 'PlateUp')
+
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c -filelist /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/sources-182 -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/AuthTextField.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/VoiceOnlyRecordingView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/WindowNutritionCalculator.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/GuidanceLevelView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/MorningCheckInPage2.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/EmptyStateView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/ElevatedTabButton.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/CheckIn.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/AnimatedProgressIndicator.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/FirestoreDataService.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/HealthConsiderationsView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/AudioRecorder.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Progress/ProgressDashboardView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/PlateUpApp.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/CoachingInsight.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WeightTargetSelectionView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/BarcodeScanner.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowExplanationIntegrationView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/MicronutrientTrackingService.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/CardContentViews/WarningCardContent.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/MealTimingView.swift -primary-file /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/QuickActionsGrid.swift -supplementary-output-file-map /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/supplementaryOutputs-4296 -emit-localized-strings -emit-localized-strings-path /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64 -target arm64-apple-ios18.5 -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -I /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/PackageFrameworks -F /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/brennenprice/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/PlateUp_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/brennenprice/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/brennenprice/Documents/PlateUp_v2/PlateUp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/brennenprice/Documents/PlateUp_v2/PlateUp -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleDataTransport.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseInstallations.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseMessaging.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/RecaptchaInterop.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleUtilities-Network.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleUtilities-Reachability.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleUtilities-AppDelegateSwizzler.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseAuthInternal.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/abslWrapper.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/opensslWrapper.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/grpcWrapper.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/grpcppWrapper.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/nanopb.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/leveldb.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseFirestoreInternalWrapper.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseFirestoreTarget.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleUtilities-NSData.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseCoreExtension.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseCore.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseAuthInterop.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/FirebaseAppCheckInterop.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/AppAuth.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleUtilities-Logger.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleUtilities-Environment.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/third-party-IsAppEncrypted.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleUtilities-UserDefaults.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/AppCheckCore.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/AppAuthCore.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GTMSessionFetcherCore.modulemap -Xcc -fmodule-map-file\=/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/GeneratedModuleMaps-iphoneos/GoogleSignIn.modulemap -Xcc -ivfsstatcache -Xcc /Users/brennenprice/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos18.5-22F76-7fa4eea80a99bbfdc046826b63ec4baf.sdkstatcache -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/PlateUp-generated-files.hmap -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/PlateUp-own-target-headers.hmap -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/PlateUp-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp-747ee18fbfb8b9f64699444a2004bcbc-VFS-iphoneos/all-product-headers.yaml -Xcc -iquote -Xcc /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/PlateUp-project-headers.hmap -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/FirebaseInstallations/Source/Library/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/FirebaseMessaging/Sources/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/interop-ios-for-google-sdks/RecaptchaEnterprise/RecaptchaInterop/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Network/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Reachability/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/FirebaseAuth/Sources/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/abseil-cpp-binary/absl-Wrapper/include -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/grpc-binary/openssl-grpc-Wrapper/include -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/grpc-binary/grpc-Wrapper/include -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/grpc-binary/grpcpp-Wrapper/include -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/nanopb/spm_headers -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/leveldb/include -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/FirebaseFirestoreInternal -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseFirestoreWrap/include -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/NSData+zlib/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCore/Extension -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCore/Sources/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/CoreOnly/Sources -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/FirebaseAuth/Interop/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/firebase-ios-sdk/FirebaseAppCheck/Interop/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/AppAuth-iOS/Sources/AppAuth -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/promises/Sources/FBLPromises/include -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Logger/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Environment/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleUtilities/third_party/IsAppEncrypted/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/UserDefaults/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/app-check/AppCheckCore/Sources/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/AppAuth-iOS/Sources/AppAuthCore -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/gtm-session-fetcher/Sources/Core/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/SourcePackages/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Products/Debug-iphoneos/include -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/DerivedSources-normal/arm64 -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/DerivedSources/arm64 -Xcc -I/Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/DerivedSources -Xcc -DDEBUG\=1 -module-name PlateUp -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.5 -target-sdk-name iphoneos18.5 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/AuthTextField.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/VoiceOnlyRecordingView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WindowNutritionCalculator.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/GuidanceLevelView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/MorningCheckInPage2.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/EmptyStateView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/ElevatedTabButton.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/CheckIn.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/AnimatedProgressIndicator.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/FirestoreDataService.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/HealthConsiderationsView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/AudioRecorder.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/ProgressDashboardView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/PlateUpApp.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/CoachingInsight.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WeightTargetSelectionView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WindowGenerationView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/BarcodeScanner.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WindowExplanationIntegrationView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/MicronutrientTrackingService.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WarningCardContent.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/MealTimingView.o -o /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Build/Intermediates.noindex/PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/QuickActionsGrid.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/AuthTextField.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/VoiceOnlyRecordingView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WindowNutritionCalculator.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/GuidanceLevelView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/MorningCheckInPage2.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/EmptyStateView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/ElevatedTabButton.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/CheckIn.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/AnimatedProgressIndicator.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/FirestoreDataService.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/HealthConsiderationsView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/AudioRecorder.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/ProgressDashboardView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/PlateUpApp.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/CoachingInsight.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WeightTargetSelectionView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WindowGenerationView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/BarcodeScanner.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WindowExplanationIntegrationView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/MicronutrientTrackingService.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/WarningCardContent.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/MealTimingView.o -index-unit-output-path /PlateUp.build/Debug-iphoneos/PlateUp.build/Objects-normal/arm64/QuickActionsGrid.o -index-store-path /Users/brennenprice/Library/Developer/Xcode/DerivedData/PlateUp-ehlxcpfhyhjhgoaljituqlpljczn/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:75:78: error: cannot convert value of type 'UUID' to expected argument type 'String'
+                                            explanation: explanations[window.id],
+                                                                             ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:116:45: error: cannot pass function of type '([MealWindow]) async -> Void' to parameter expecting synchronous function type
+            await viewModel.generateWindows { windows in
+                                            ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:124:26: note: 'async' inferred from asynchronous operation used here
+                    try? await Task.sleep(nanoseconds: UInt64(500_000_000 * index))
+                         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:133:58: error: cannot convert value of type 'UUID' to expected argument type 'String'
+                                self.explanations[window.id] = explanation
+                                                         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:188:71: error: cannot convert value of type 'Double' to expected argument type 'Int'
+                MacroIndicator(label: "P", value: window.targetMacros.protein, unit: "g")
+                                                                      ^
+                                                  Int(                       )
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:292:86: error: cannot convert value of type 'Double' to expected argument type 'Int'
+                        MacroDetailCard(label: "Protein", value: window.targetMacros.protein, color: .blue)
+                                                                                     ^
+                                                                 Int(                       )
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:75:78: Cannot convert value of type 'UUID' to expected argument type 'String'
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:116:45: Cannot pass function of type '([MealWindow]) async -> Void' to parameter expecting synchronous function type
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:133:58: Cannot convert value of type 'UUID' to expected argument type 'String'
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:188:71: Cannot convert value of type 'Double' to expected argument type 'Int'
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/WindowGeneration/WindowGenerationView.swift:292:86: Cannot convert value of type 'Double' to expected argument type 'Int'
+
+SwiftCompile normal arm64 Compiling\ WeightGoalsView.swift,\ MealPhotoViewCaching.swift,\ AppLaunchState.swift,\ ProgressViewModel.swift,\ WeightSelectionView.swift,\ PolishedAICoachView.swift,\ BarcodeScannerView.swift,\ MealViewModel.swift,\ GoalProgressCardContent.swift,\ SuccessVisionView.swift,\ WindowGenerationViewModel.swift,\ MorningCheckInPages.swift,\ DayLifecycleManager.swift,\ GeminiAPITestView.swift,\ SplashViewEnhanced.swift,\ PlateUpIcons.swift,\ VoiceRecordingTestView.swift,\ NavigationAnimationDemo.swift,\ CompactMicronutrientProgressView.swift,\ LifestyleChallengesView.swift,\ ViewExtensions.swift,\ SettingsView.swift,\ DraggableCard.swift,\ Nutrition.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WeightGoalsView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/MealPhotoViewCaching.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Utilities/AppLaunchState.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/ProgressViewModel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WeightSelectionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Coach/PolishedAICoachView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/BarcodeScannerView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MealViewModel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/CardContentViews/GoalProgressCardContent.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/SuccessVisionView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/WindowGenerationViewModel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/CheckIn/MorningCheckInPages.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DayLifecycleManager.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Testing/GeminiAPITestView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/SplashViewEnhanced.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/PlateUpIcons.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Testing/VoiceRecordingTestView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Demo/NavigationAnimationDemo.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Components/CompactMicronutrientProgressView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/LifestyleChallengesView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Extensions/ViewExtensions.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Settings/SettingsView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/Components/DraggableCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/Nutrition.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/BarcodeScannerView.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/BarcodeScannerView.swift:118:10: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+        .onChange(of: torchOn) { newValue in
+         ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/BarcodeScannerView.swift:118:10: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DayLifecycleManager.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DayLifecycleManager.swift:66:13: warning: initialization of immutable value 'wakeMinute' was never used; consider replacing with assignment to '_' or removing it
+        let wakeMinute = calendar.component(.minute, from: wakeTime)
+        ~~~~^~~~~~~~~~
+        _
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DayLifecycleManager.swift:250:13: warning: initialization of immutable value 'currentHour' was never used; consider replacing with assignment to '_' or removing it
+        let currentHour = calendar.component(.hour, from: Date())
+        ~~~~^~~~~~~~~~~
+        _
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DayLifecycleManager.swift:66:13: Initialization of immutable value 'wakeMinute' was never used; consider replacing with assignment to '_' or removing it
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/DayLifecycleManager.swift:250:13: Initialization of immutable value 'currentHour' was never used; consider replacing with assignment to '_' or removing it
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Testing/VoiceRecordingTestView.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Testing/VoiceRecordingTestView.swift:163:10: warning: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+        .onChange(of: speechRecognizer.transcribedText) { newValue in
+         ^
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Testing/VoiceRecordingTestView.swift:163:10: 'onChange(of:perform:)' was deprecated in iOS 17.0: Use `onChange` with a two or zero parameter action closure instead.
+
+SwiftCompile normal arm64 Compiling\ MicroNutrientViewModel.swift,\ DailyNutritionPlanView.swift,\ UIHelpers.swift,\ FirebaseRealTimeSyncAgent.swift,\ VoiceRecordingView.swift,\ MicroNutrient.swift,\ Colors.swift,\ FocusCard.swift,\ UnifiedCameraView.swift,\ BuildingBlueprintView.swift,\ CardShimmerLoader.swift,\ EnhancedFocusViewComplete.swift,\ SimpleDraggableCard.swift,\ WorkScheduleView.swift,\ EnhancedCoachMessageView.swift,\ AnalysisOptionsSheet.swift,\ RecipeGenerationService.swift,\ SleepOptimizationCardContent.swift,\ HealthBlueprintView.swift,\ PlateUpLogoVector.swift,\ WindowProgressView.swift,\ RealTimeSyncProtocol.swift,\ GoalSelectionCard.swift,\ MealWindowManager.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MicroNutrientViewModel.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/DailyNutritionPlanView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Utilities/UIHelpers.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/VoiceRecordingView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Models/MicroNutrient.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Utilities/Colors.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Dashboard/Components/FocusCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/Camera/UnifiedCameraView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/BuildingBlueprintView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/CardShimmerLoader.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/EnhancedFocusViewComplete.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/Components/SimpleDraggableCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/WorkScheduleView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Coach/EnhancedCoachMessageView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/MealLogging/AnalysisOptionsSheet.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/RecipeGenerationService.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/AICoaching/CardContentViews/SleepOptimizationCardContent.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Onboarding/HealthBlueprintView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/PlateUpLogoVector.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Views/Focus/WindowProgressView.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Components/GoalSelectionCard.swift /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MealWindowManager.swift (in target 'PlateUp' from project 'PlateUp')
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MicroNutrientViewModel.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MicroNutrientViewModel.swift:129:13: warning: initialization of immutable value 'startDate' was never used; consider replacing with assignment to '_' or removing it
+        let startDate = calendar.date(byAdding: .day, value: -6, to: endDate)!
+        ~~~~^~~~~~~~~
+        _
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/ViewModels/MicroNutrientViewModel.swift:129:13: Initialization of immutable value 'startDate' was never used; consider replacing with assignment to '_' or removing it
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:32:9: warning: main actor-isolated property 'syncStatus' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    var syncStatus: AnyPublisher<SyncStatus, Never> {
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:16:52: note: add '@preconcurrency' to the 'RealTimeSyncAgent' conformance to defer isolation checking to run time
+class FirebaseRealTimeSyncAgent: ObservableObject, RealTimeSyncAgent {
+                                                   ^
+                                                   @preconcurrency 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:56:9: note: requirement 'syncStatus' declared here
+    var syncStatus: AnyPublisher<SyncStatus, Never> { get }
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:36:9: warning: main actor-isolated property 'pendingChanges' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    var pendingChanges: AnyPublisher<Int, Never> {
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:57:9: note: requirement 'pendingChanges' declared here
+    var pendingChanges: AnyPublisher<Int, Never> { get }
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:40:9: warning: main actor-isolated property 'lastSyncTime' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    var lastSyncTime: AnyPublisher<Date?, Never> {
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:58:9: note: requirement 'lastSyncTime' declared here
+    var lastSyncTime: AnyPublisher<Date?, Never> { get }
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:127:10: warning: main actor-isolated instance method 'stopSync()' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    func stopSync() {
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:127:10: note: add 'nonisolated' to 'stopSync()' to make this instance method not isolated to the actor
+    func stopSync() {
+         ^
+    nonisolated 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:62:10: note: mark the protocol requirement 'stopSync()' 'async' to allow actor-isolated conformances
+    func stopSync()
+         ^
+                    async
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:188:10: warning: main actor-isolated instance method 'observeData(type:path:)' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    func observeData<T: Codable>(type: T.Type, path: String) -> AnyPublisher<T?, Error> {
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:188:10: note: add 'nonisolated' to 'observeData(type:path:)' to make this instance method not isolated to the actor
+    func observeData<T: Codable>(type: T.Type, path: String) -> AnyPublisher<T?, Error> {
+         ^
+    nonisolated 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:67:10: note: mark the protocol requirement 'observeData(type:path:)' 'async' to allow actor-isolated conformances
+    func observeData<T: Codable>(type: T.Type, path: String) -> AnyPublisher<T?, Error>
+         ^
+                                                             async
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:221:10: warning: main actor-isolated instance method 'observeCollection(type:path:)' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    func observeCollection<T: Codable>(type: T.Type, path: String) -> AnyPublisher<[T], Error> {
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:221:10: note: add 'nonisolated' to 'observeCollection(type:path:)' to make this instance method not isolated to the actor
+    func observeCollection<T: Codable>(type: T.Type, path: String) -> AnyPublisher<[T], Error> {
+         ^
+    nonisolated 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:68:10: note: mark the protocol requirement 'observeCollection(type:path:)' 'async' to allow actor-isolated conformances
+    func observeCollection<T: Codable>(type: T.Type, path: String) -> AnyPublisher<[T], Error>
+         ^
+                                                                   async
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:300:10: warning: main actor-isolated instance method 'resolveConflict(_:_:strategy:)' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    func resolveConflict<T: Codable>(_ local: T, _ remote: T, strategy: ConflictResolution) -> T {
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:300:10: note: add 'nonisolated' to 'resolveConflict(_:_:strategy:)' to make this instance method not isolated to the actor
+    func resolveConflict<T: Codable>(_ local: T, _ remote: T, strategy: ConflictResolution) -> T {
+         ^
+    nonisolated 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:74:10: note: mark the protocol requirement 'resolveConflict(_:_:strategy:)' 'async' to allow actor-isolated conformances
+    func resolveConflict<T: Codable>(_ local: T, _ remote: T, strategy: ConflictResolution) -> T
+         ^
+                                                                                            async
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:366:10: warning: main actor-isolated instance method 'clearOfflineQueue()' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    func clearOfflineQueue() {
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:366:10: note: add 'nonisolated' to 'clearOfflineQueue()' to make this instance method not isolated to the actor
+    func clearOfflineQueue() {
+         ^
+    nonisolated 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:79:10: note: mark the protocol requirement 'clearOfflineQueue()' 'async' to allow actor-isolated conformances
+    func clearOfflineQueue()
+         ^
+                             async
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:373:10: warning: main actor-isolated instance method 'addListener(for:priority:)' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    func addListener(for path: String, priority: SyncPriority) -> ListenerRegistration {
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:373:10: note: add 'nonisolated' to 'addListener(for:priority:)' to make this instance method not isolated to the actor
+    func addListener(for path: String, priority: SyncPriority) -> ListenerRegistration {
+         ^
+    nonisolated 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:82:10: note: mark the protocol requirement 'addListener(for:priority:)' 'async' to allow actor-isolated conformances
+    func addListener(for path: String, priority: SyncPriority) -> any ListenerRegistration
+         ^
+                                                               async
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:409:10: warning: main actor-isolated instance method 'removeListener' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    func removeListener(_ registration: ListenerRegistration) {
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:409:10: note: add 'nonisolated' to 'removeListener' to make this instance method not isolated to the actor
+    func removeListener(_ registration: ListenerRegistration) {
+         ^
+    nonisolated 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:83:10: note: mark the protocol requirement 'removeListener' 'async' to allow actor-isolated conformances
+    func removeListener(_ registration: any ListenerRegistration)
+         ^
+                                                                  async
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:415:10: warning: main actor-isolated instance method 'removeAllListeners()' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+    func removeAllListeners() {
+         ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:415:10: note: add 'nonisolated' to 'removeAllListeners()' to make this instance method not isolated to the actor
+    func removeAllListeners() {
+         ^
+    nonisolated 
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:84:10: note: mark the protocol requirement 'removeAllListeners()' 'async' to allow actor-isolated conformances
+    func removeAllListeners()
+         ^
+                              async
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:89:14: warning: result of call to 'addStateDidChangeListener' is unused
+        auth.addStateDidChangeListener { [weak self] _, user in
+             ^                         ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:268:13: warning: variable 'errors' was never mutated; consider changing to 'let' constant
+        var errors: [Error] = []
+        ~~~ ^
+        let
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:32:9: Main actor-isolated property 'syncStatus' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:36:9: Main actor-isolated property 'pendingChanges' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:40:9: Main actor-isolated property 'lastSyncTime' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:127:10: Main actor-isolated instance method 'stopSync()' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:188:10: Main actor-isolated instance method 'observeData(type:path:)' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:221:10: Main actor-isolated instance method 'observeCollection(type:path:)' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:300:10: Main actor-isolated instance method 'resolveConflict(_:_:strategy:)' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:366:10: Main actor-isolated instance method 'clearOfflineQueue()' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:373:10: Main actor-isolated instance method 'addListener(for:priority:)' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:409:10: Main actor-isolated instance method 'removeListener' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:415:10: Main actor-isolated instance method 'removeAllListeners()' cannot be used to satisfy nonisolated requirement from protocol 'RealTimeSyncAgent'; this is an error in the Swift 6 language mode
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:89:14: Result of call to 'addStateDidChangeListener' is unused
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/FirebaseRealTimeSyncAgent.swift:268:13: Variable 'errors' was never mutated; consider changing to 'let' constant
+
+SwiftCompile normal arm64 /Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift (in target 'PlateUp' from project 'PlateUp')
+    cd /Users/brennenprice/Documents/PlateUp_v2/PlateUp
+    
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:89:9: warning: immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+    let id: String = UUID().uuidString
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:89:9: note: set the initial value via the initializer or explicitly define a CodingKeys enum including a 'id' case to silence this warning
+    let id: String = UUID().uuidString
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:89:9: note: make the property mutable instead
+    let id: String = UUID().uuidString
+    ~~~ ^
+    var
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:94:9: warning: immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+    let timestamp: Date = Date()
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:94:9: note: set the initial value via the initializer or explicitly define a CodingKeys enum including a 'timestamp' case to silence this warning
+    let timestamp: Date = Date()
+        ^
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:94:9: note: make the property mutable instead
+    let timestamp: Date = Date()
+    ~~~ ^
+    var
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:89:9: Immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+
+/Users/brennenprice/Documents/PlateUp_v2/PlateUp/PlateUp/Services/Sync/RealTimeSyncProtocol.swift:94:9: Immutable property will not be decoded because it is declared with an initial value which cannot be overwritten
+
+
+
+Build failed    7/26/25, 10:22 AM    102.9 seconds
